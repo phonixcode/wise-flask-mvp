@@ -13,10 +13,9 @@ Wise allows you to transfer money abroad easily and quickly with low-cost money 
 ## Features
 - Money can be sent/converted into any of the three currencies to be sent to another user.
 - Money can be sent/converted to any and every user who is registered on the app.
-- The user to send the money to can be chosen from an input-dropdown list which shows all users if clicked on. (Tip: Create at least two users as dummy data.)
-- A user cannot have a negative balance. All users start with 1000 USD worth of money given via an initial transaction when you create them.
+- The user to send the money to can be chosen from an input-dropdown list which shows all users if clicked on.
+- All users start with 1000 USD worth of money given via an initial transaction when you create them.
 - All users start with USD as their native currency but can receive EUR and your specified local currency.
-- All database tables must have the `created_at` timestamp, which should be populated automatically.
 
 ## Wise Application Development Procedures
 
@@ -35,5 +34,5 @@ Wise allows you to transfer money abroad easily and quickly with low-cost money 
 7. Run `php artisan serve` command.
 
 ## Login credentials
-Email: `user@abbyfuncode.com`
-Password: `password`
+- Email: `user@abbyfuncode.com`
+- Password: `password`
