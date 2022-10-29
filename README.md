@@ -36,3 +36,5 @@ Wise allows you to transfer money abroad easily and quickly with low-cost money 
 ## Login credentials
 - Email: `user@abbyfuncode.com`
 - Password: `password`
+
+## Project Final Result Screenshots
