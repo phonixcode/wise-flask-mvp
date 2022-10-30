@@ -10,7 +10,7 @@
         content="wise, cheap, fast money, send money, money, abroad, fast way to send money abroad" />
     <meta name="author" content="Abbycode" />
     <link rel="shortcut icon" href="{{ asset('assets/img/brand_flag.svg') }}" />
-    <title>Wise - @yield('title')</title>
+    <title>@yield('title') - Wise</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 

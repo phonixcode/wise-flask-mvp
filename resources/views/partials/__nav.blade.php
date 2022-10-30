@@ -2,9 +2,9 @@
     <div class="container-fluid">
         <div class="row gutters">
             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-3 col-4">
-                <a href="#app-side" data-toggle="onoffcanvas" class="onoffcanvas-toggler" aria-expanded="true">
+                {{-- <a href="#app-side" data-toggle="onoffcanvas" class="onoffcanvas-toggler" aria-expanded="true">
                     <i class="icon-chevron-thin-left"></i>
-                </a>
+                </a> --}}
             </div>
             <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-4">
                 <a href="/" class="logo">
@@ -45,10 +45,10 @@
                         <div class="container-fluid">
                             <div class="row gutters">
                                 <div class="col-xl-5 col-lg-5 col-md-5 col-sm-3 col-4">
-                                    <a href="#app-side" data-toggle="onoffcanvas" class="onoffcanvas-toggler"
+                                    {{-- <a href="#app-side" data-toggle="onoffcanvas" class="onoffcanvas-toggler"
                                         aria-expanded="true">
                                         <i class="icon-chevron-thin-left"></i>
-                                    </a>
+                                    </a> --}}
                                 </div>
                                 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-4">
                                     <a href="/" class="logo">
@@ -99,7 +99,7 @@
                                             </a>
                                             <div class="dropdown-menu lg dropdown-menu-right"
                                                 aria-labelledby="userSettings">
-                                                <ul class="user-settings-list">
+                                                {{-- <ul class="user-settings-list">
                                                     <li>
                                                         <a href="profile.html">
                                                             <div class="icon">
@@ -124,7 +124,7 @@
                                                             <p>Activity</p>
                                                         </a>
                                                     </li>
-                                                </ul>
+                                                </ul> --}}
                                                 <div class="logout-btn">
                                                     <a href="{{ route('logout') }}" onclick="event.preventDefault();
                                                                   document.getElementById('logout-form').submit();"

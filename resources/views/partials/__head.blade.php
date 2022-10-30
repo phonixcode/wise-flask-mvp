@@ -5,7 +5,7 @@
 <meta name="keywords" content="wise, cheap, fast money, send money, money, abroad, fast way to send money abroad" />
 <meta name="author" content="Abbycode" />
 <link rel="shortcut icon" href="{{ asset('assets/img/brand_flag.svg') }}" />
-<title>Wise - @yield('title')</title>
+<title>@yield('title') - Wise</title>
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
@@ -15,6 +15,11 @@
 <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" />
 
 <!-- Other CSS includes plugins - Cleanedup unnecessary CSS -->
+
 <!-- Chartist css -->
 <link href="{{ asset('assets/vendor/chartist/css/chartist.min.css') }}" rel="stylesheet" />
 <link href="{{ asset('assets/vendor/chartist/css/chartist-custom.css') }}" rel="stylesheet" />
+
+<!-- Data Tables -->
+<link rel="stylesheet" href="{{ asset('assets/vendor/datatables/dataTables.bs4.css') }}" />
+<link rel="stylesheet" href="{{ asset('assets/vendor/datatables/dataTables.bs4-custom.css') }}" />
