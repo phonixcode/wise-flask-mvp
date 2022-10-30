@@ -20,4 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes(['login' => true,'register' => true,'logout' => true,'reset' => false,'confirm' => false,'verify' => false]);
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('/', [App\Http\Controllers\DashboardController::class, 'index'])->name('home');
+    Route::resource('transaction', App\Http\Controllers\TransactionController::class);
+});
